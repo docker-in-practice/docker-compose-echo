@@ -6,4 +6,4 @@ server:
 client:
   image: client
   links:
-  - server:server
+  - server:talkto
