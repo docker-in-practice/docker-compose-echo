@@ -1,0 +1,9 @@
+server:
+  image: server
+  expose:
+  - "2000"
+
+client:
+  image: client
+  links:
+  - server:server
